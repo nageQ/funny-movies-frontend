@@ -5,7 +5,6 @@ import { Box, Grid } from "@mui/material";
 import Input from "components/Input";
 import Button from "components/Button";
 import { useForm } from "react-hook-form";
-import { toast } from "react-toastify";
 import logo from "../../asset/logo.png";
 
 function Login() {
@@ -16,10 +15,10 @@ function Login() {
   const width = window.innerWidth < 400 ? 300 : 400;
 
   const onSubmit = (data) => {
-    const dataTemp = {
-      email: data.Email,
-      password: data.Password,
-    };
+    // const dataTemp = {
+    //   email: data.Email,
+    //   password: data.Password,
+    // };
   };
 
   return (
