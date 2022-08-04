@@ -1,0 +1,54 @@
+.container-login {
+    background-color: #9354ac;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-form {
+    color: #782EEC;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.forgot-text {
+    margin-top: 10px;
+    align-self: flex-end;
+    color: #777E90;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button-login {
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.text-have {
+    color: #777E90;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.text-create {
+    margin-top: 10px;
+    color: #782EEC;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+export const PATH_ROUTES = {
+  home: "/",
+  login: "/login",
+  changePassword: "/change-password",
+  detailInvest: "/detail-invest",
+  detailTrade: "/detail-trade",
+  forgotPassword: "/forgot-password",
+  bouty: "/bouty",
+  history: "/history",
+  invest: "/invest",
+  invited: "/invidted",
+  myTeam: "/my-team",
+  register: "/register",
+  service: "/service",
+  trade: "/trade",
+  user: "/user",
+  wallet: "wallet",
+};
